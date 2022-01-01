@@ -1,5 +1,5 @@
 //1
-$('button').attr('disabled', true);
+$('#sub').attr('disabled', true);
 $('input').click(function(){
     $('button').attr('disabled',!this.checked);
 });
@@ -51,3 +51,14 @@ let obj = {
 $('#object').text(obj.animal + " " + obj.value + " " + obj.eat);
 
 //11
+$("#ingredient").click(function(){
+     $("ul").append("<li>vinaigre</li>");
+});
+
+//12
+$('#options').children().remove().end().append('<option selected value="Option">Nouvelle option</option>');
+
+//13
+$('#underline').css('text-decoration', 'underline');
+
+//14
