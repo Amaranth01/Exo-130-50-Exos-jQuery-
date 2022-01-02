@@ -158,6 +158,40 @@ $('ul').addClass('.ul').css('font-weight', 'bold');
 
 //35
 let count = $('#selected p').length;
-console.log(count)
+console.log(count);
 
 //37
+if (jQuery) {
+    alert("jquery is loaded");
+} else {
+    alert("Not loaded");
+}
+
+//39
+$('#input').val('value');
+
+//40
+$('#par').text("rajout");
+
+//41
+$('.test').click(function (){
+    $(this).attr('class');
+});
+
+//43
+$('#test').prop("disabled", false);
+
+//44
+let width = $('#clignote').outerWidth();
+console.log(width);
+
+//45
+$('#color').mouseover(function (event){
+    $(this).fadeOut();
+})
+
+//46
+$('#options').val();
+
+//47
+$('#img').attr('alt', 'une image random');
