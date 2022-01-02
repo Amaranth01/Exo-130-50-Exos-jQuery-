@@ -28,7 +28,7 @@
         <td>h</td>
     </tr>
 
-    <tr>
+    <tr id="del">
         <td>i</td>
         <td>j</td>
         <td>k</td>
@@ -38,7 +38,7 @@
 
 <a href="#">Lien d'impression</a>
 
-<textarea name="texte" id="texte" cols="30" rows="10"></textarea>
+<textarea name="texte" id="texte" cols="30" rows="10"></textarea> <button id="valueTexte">récupérer valeur</button>
 
 <p><span class="bold">Le</span> premier paragraphe</p>
 <p><span class="bold">Deuxième </span>paragraphe</p>
@@ -65,8 +65,24 @@
 
 <p id="underline">Un texte souligné</p>
 
-<input type="text" id="input" value="texte du champ">
+<input type="text" id="input" value="texte du champ"> <button type="submit" id="buttonInput">clique</button>
 
+<div id="containerRadio" class="radio">
+    <input type="text" id="inputRadio">
+</div>
+
+<div id="up"></div>
+<div class="del"></div>
+<div class="del"></div>
+
+<div id="selected">
+    <p>Rouge</p>
+    <p>Blanc</p>
+    <p>Vert</p>
+    <p>Noirk</p>
+    <p>Bleu</p>
+    <p>Orange</p>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="app.js"></script>
 </body>
